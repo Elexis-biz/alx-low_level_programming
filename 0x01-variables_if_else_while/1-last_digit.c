@@ -5,8 +5,6 @@
  * main - Entry point
  * Return: Always 0 (success)
  */
-
-/* Determine if a random number is greater than 5 or less than 6 but not 0 */
 int main(void)
 {
 	int n;
