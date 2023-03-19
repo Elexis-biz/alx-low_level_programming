@@ -5,6 +5,8 @@
  * main - Entry point
  * Return: Always 0 (success)
  */
+
+/* Determine if a random number is greater than 5 or less than 6 but not 0 */
 int main(void)
 {
 	int n;
@@ -23,7 +25,7 @@ int main(void)
 	}
 	else if (lastnum < 6 && lastnum != 0)
 	{
-		printf("Last digit of %d is %d and is less than and not 0\n", n, lastnum);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastnum);
 	}
 	return (0);
 }
