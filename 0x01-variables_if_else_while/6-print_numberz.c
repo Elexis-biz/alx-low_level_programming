@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ *
  * Return: Always 0 (success)
  */
 
@@ -9,12 +10,10 @@ int main(void)
 {
 	int num;
 
-	while (num < 10)
-	{
-		printf("%d", num);
-		num += 1;
-	}
-	printf("\n");
+	for (num = 0; num < 10; num++)
+		putchar ((num % 10) + '0');
+
+	putchar('\n');
 
 	return (0);
 }
